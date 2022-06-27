@@ -1,3 +1,5 @@
+@import '../../styles/commun.scss';
+
 .navigate{
     display:flex;
     justify-content:space-around;
@@ -8,7 +10,6 @@
 .navigate a{
     text-decoration:none;
     font-size:25px;
-    width:300px;
     color: gray;
 }
 
@@ -81,4 +82,15 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 {
     opacity: 1;
     transform: translateY(0px);
+}
+@media #{$medium-down} {
+   
+    .navigate{
+     
+        flex-direction: column;
+        font-size:10px;
+        height:100%;
+        justify-content:center;
+        align-items:center;
+    }
 }
