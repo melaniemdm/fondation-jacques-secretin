@@ -1,5 +1,5 @@
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-//import Accueil from '../pages/Accueil';
+import Accueil from '../pages/Accueil';
 // import Profil from '../pages/Profil';
 // import Reglage from '../pages/Reglage';
 // import Communaute from '../pages/Communaute';
@@ -14,7 +14,8 @@ function CustomsRoutes(){
       <div>
    
       <Routes>
-        <Route exact path="/"  />
+      <Route exact path="/" element={<Accueil />} />
+        <Route exact path="/accueil" element={<Accueil />} />
       
       </Routes></div>
      
