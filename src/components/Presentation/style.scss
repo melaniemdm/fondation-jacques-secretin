@@ -2,17 +2,30 @@
 color: #1f5da6;
 font-weight: bold;
 font-size: 30px;
-margin-top: 20px;
-margin-left: 20px;
-margin-bottom:30px;
 }
-.containerPresentation{
+.containerPresentationContenu{
+    outline: 1px solid black;
 height:auto;
  display: flex;
- 
+ justify-content: center;
+ align-items: center;
+ text-align: center;
  margin-left:10px;
  margin-right:10px;
 }
-.containerTxt{
-    margin-left: 25px;
+
+.containerPresentation{
+height:800px;
+background-color: rgba(31,93,166, .3);
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+text-align: center;
+align-items: center;
+
+}
+.presentation{
+     width: 100px;
+    margin-left:10px;
+   
 }
