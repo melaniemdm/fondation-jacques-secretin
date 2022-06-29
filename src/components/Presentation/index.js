@@ -4,32 +4,32 @@ import '../../styles/commun.scss';
 
 function Presentation(){
     return (     
-  <div className="containerPrésentation">
-    <div className="title">Présentation de la fondation</div>
+        <div className='containerNews'>
+        <div className="title">Présentation de la fondation</div>
+   
+    <div className="container">
+    
+      <div className="square">
+     <img src={article} alt="tennis de table" className="mask"/>
+     <div className="h1">Is Apple a Design Company?</div>
+        <p>Apple is more than a tech company; it became a culture unto itself, a passion of most of people and the birthplace of the world’s most revolutionized products.</p>
+        
+     <div><a href="https://medium.com/@laheshk/is-apple-a-design-company-f5c83514e261" target="_" className="button">Lire la suite</a></div>
+      </div>
+      
+      
+      
      
-                    <div className="img-card iCard-style1">
-                        <div className="card-content">
-                            <div className="card-image">
-                               
-                                <img src={article} alt="img de JS" className="imgJS"/>
-                            </div>
-                            
-                            <div className="card-text">
-                                <h2>Présentation de Jacques Secrétin</h2>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Image by <a href="https://pixabay.com/users/Hans-2/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3461451" >Hans Braxmeier</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3461451" >Pixabay</a>
-                                </p>
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="card-link">
-                            <a href="# " title="Read Full"><span>Lire la suite</span></a>
-                        </div>
-                    </div>                    
+      
+        
+      
+      
+    </div>
+    
+    
+  
               
-
-  </div>
+    </div>
 
 
 
