@@ -10,7 +10,7 @@ function Navigate(){
       <Link to="/accueil " className="accueil">Accueil</Link> 
       <Link to="/presentation " className="presentation">Présentation</Link>
       <Link to="/news " className="news">Les news de la fondation</Link>
-      <Link to="/aider " className="aider">Nous aider</Link>
+      <Link to="/aider " className="Notre mission">Notre mission</Link>
     </nav></div>  
         </div>
     )
