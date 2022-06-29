@@ -3,7 +3,7 @@ import './style.scss';
 
 function Presentation(){
     return (
-        <div className='containerPresentation'><div className="title">Présentation de la fondation</div>
+        <div className='containerPresentation'><div className="titlePresentation">Présentation de la fondation</div>
             <div className="containerPresentationContenu">
 
 
