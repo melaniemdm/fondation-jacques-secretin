@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fondation-jacques-secretin/static/css/main.90d87d9c.css",
+    "main.js": "/fondation-jacques-secretin/static/js/main.3d5887a2.js",
+    "static/js/311.eb45275f.chunk.js": "/fondation-jacques-secretin/static/js/311.eb45275f.chunk.js",
+    "static/media/logo.png": "/fondation-jacques-secretin/static/media/logo.b5da4f66a72657ef4240.png",
+    "index.html": "/fondation-jacques-secretin/index.html",
+    "main.90d87d9c.css.map": "/fondation-jacques-secretin/static/css/main.90d87d9c.css.map",
+    "main.3d5887a2.js.map": "/fondation-jacques-secretin/static/js/main.3d5887a2.js.map",
+    "311.eb45275f.chunk.js.map": "/fondation-jacques-secretin/static/js/311.eb45275f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90d87d9c.css",
+    "static/js/main.3d5887a2.js"
+  ]
+}
