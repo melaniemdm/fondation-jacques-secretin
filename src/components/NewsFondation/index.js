@@ -1,34 +1,50 @@
-import new1F from '../../assets/new1F.jpg';
+
 import './style.scss';
+import {newsFondation} from '../../datas/news';
+console.log(newsFondation)
 
 
  function NewsFondation(){
+  
     return(
         
     <div className="containerNew">
       <div className="title"> Les news de la fondation</div>
-<section class="cardNew">
-      <div class="card-thumbNew">
-        <a href="# "><img src={new1F} alt="" className="imageNew" /></a>
-        <span class="card-category">Histoire</span>
+<div className="containerCardNew">
+
+  {newsFondation.map((nouveaute, index)=> <section className="cardNew" key={index}>
+
+  <div className="card-thumbNew">
+      
+       <img src={nouveaute.pictureNew} alt="photoArticle" className="imageNew" />
+        <span className="card-category">{nouveaute.category}</span>
       </div>
-      <div class="card-dateNew">
+      {/* <div className="card-dateNew">
         <span>January</span>
         <span>16</span>
-      </div>
-      <div class="card-body">
-        <h2 class="card-title">Création de la fondation</h2>
+      </div> */}
+      <div className="card-body">
+        <h2 className="card-title">{nouveaute.titleNew}</h2>
        
-        <p class="card-description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla atque
-          consectetur, adipisicing elit.
+        <p className="card-description">
+        {nouveaute.textNew}
         </p>
       </div>
-      <div class="card-footerNew">
+      <div className="card-footerNew">
        
       
       </div>
-    </section>
+
+
+
+
+  
+      </section>
+  
+  
+  )}
+  </div>  
+
  
     </div>
     

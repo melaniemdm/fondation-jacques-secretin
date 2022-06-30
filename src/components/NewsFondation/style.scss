@@ -1,6 +1,12 @@
 .containerNew{
-  background: content-box radial-gradient(#1f5da6, #ffffff, #c73429);
-  height:600px;
+  background:  #c73429;
+ height:auto;
+ width:auto;
+}
+.containerCardNew{
+ padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 ::-webkit-scrollbar {
     background: #e4e4e4 !important;
