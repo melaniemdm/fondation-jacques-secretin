@@ -5,7 +5,8 @@ console.log(missions);
 function Mission(){
     return(
     <div className="containerMission">   
-
+  <div className="title"> Nos actions</div>
+  <div className="containerCardMission"> 
 {missions.titleMissions.map((mission,index)=>
   <div className="thankyou_containerMission" key={index}>
 <div className="mainMission">
@@ -22,7 +23,7 @@ function Mission(){
   
 
 
-    
+  </div>   
 </div>   
     )
 }
