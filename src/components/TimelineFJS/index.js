@@ -19,7 +19,7 @@ function TimelineFJS(){
           <img src="https://thehelpfultipper.github.io/dynamic_timeline/timeline-icons/1988.png" alt=""/>
             <div class="content right">
               <p class="year">1988</p>
-              <p class="text">Offers full health benefits to eligible full-and part-time employees, including coverage for domestic partnerships.</p>
+              <p class="text">Offers full health benefits to eligible full-and part-time employees.</p>
             </div>
           
         </div>
@@ -57,21 +57,21 @@ function TimelineFJS(){
               <img src="https://thehelpfultipper.github.io/dynamic_timeline/timeline-icons/2008.png" alt=""/>
             <div class="content left">
                 <p class="year">2008</p>
-                <p class="text">Adopts new Mission Statement: “To inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.”</p>
+                <p class="text">Adopts new Mission Statement: “To inspire and nurture the human spirit”</p>
             </div>
         </div>
         <div class="branch mirror-down turn">
           <img src="https://thehelpfultipper.github.io/dynamic_timeline/timeline-icons/2013.png" alt=""/>
             <div class="content right">     
                 <p class="year">2013</p>             
-                <p class="text">Strengthens ethical sourcing efforts with coffee farming research and development center at Hacienda Alsacia in Costa Rica.</p>
+                <p class="text">Strengthens ethical sourcing efforts with coffee farming research.</p>
             </div>
         </div>
         <div class="branch flip">
           <img src="https://thehelpfultipper.github.io/dynamic_timeline/timeline-icons/2018.png" alt=""/>
             <div class="content left">
                 <p class="year">2018</p>
-                <p class="text">Commits to new environmental goals: phasing out disposable plastic straws by 2020 and operating 10,000 ‘Greener Stores’ globally by 2025.</p>
+                <p class="text">Commits to new environmental goals: phasing out disposable plastic straws by 2020 .</p>
             </div> 
         </div>
     </div>
