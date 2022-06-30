@@ -4,8 +4,7 @@
 
 .timeline{
     height:700px;
-    width:100%;
-}
+    }
 
 
 /* rows & columns */
@@ -295,6 +294,27 @@
   .timeline{
     height: 1200px;
   }
- 
+  .text {
+    font-size: 10px;
+   }
+
+   #line::after {
+    content: '';
+     right:0px;
+   }
+   
+#line::before {
+  content: '';
+  left: 0;
+  }
+
+  .content {
+    left: 0px;
+    width: 80px;
+}
+.left {
+  
+  top: -150px;
 }
 
+}

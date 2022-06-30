@@ -42,7 +42,7 @@ function TimelineFJS(){
           <img src="https://thehelpfultipper.github.io/dynamic_timeline/timeline-icons/2001.png" alt=""/>
             <div class="content left">
                 <p class="year">2001</p>
-                <p class="text">Introduces ethical coffee-sourcing guidelines developed in partnership with Conservation International.</p>
+                <p class="text">Introduces ethical coffee-sourcing guidelines developed....</p>
             </div>
         </div>
          <div class="branch mirror-down turn">
@@ -57,7 +57,7 @@ function TimelineFJS(){
               <img src="https://thehelpfultipper.github.io/dynamic_timeline/timeline-icons/2008.png" alt=""/>
             <div class="content left">
                 <p class="year">2008</p>
-                <p class="text">Adopts new Mission Statement: “To inspire and nurture the human spirit”</p>
+                <p class="text">Adopts new Mission Statement: “To inspire and nurture...”</p>
             </div>
         </div>
         <div class="branch mirror-down turn">
