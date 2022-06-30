@@ -1,0 +1,293 @@
+:root {
+    --main:  #455962;
+}
+
+.timeline{
+    height:700px;outline:2px solid black;
+}
+
+
+/* rows & columns */
+
+ .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%; 
+  margin-bottom: 40px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} 
+
+
+
+/* timeline */
+
+#line {
+    width: 100%;
+    max-width: 1190px;
+    height: 4px;
+    background-color: var(--main);
+    margin: 0 auto;
+    position: relative;
+    top: 320px;
+}
+
+#line::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--main);
+    position: absolute;
+    right: -5px;
+    top: -4px;
+}
+
+#line::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--main);
+    position: absolute;
+    left: -5px;
+    top: -4px; 
+}
+
+/* branches */
+
+ .branch {
+    width: calc(1190px/10);
+    height: 130px;
+    border-left: 3px solid var(--main);
+    position: relative;
+    bottom: 160px;
+    left: 40px;
+    display: inline-block;
+    transition: all 1.5s ease;
+}
+
+ .branch::after {
+    content: '';
+    width: 15px;
+    height: 2px;
+    border-bottom: 3px solid var(--main);
+    position: absolute;
+    bottom: 0;
+    left: -2px;
+}
+
+.branch::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--main);
+    position: absolute;
+    top: -4px;
+    left: -5.5px;
+}
+
+.mirror-down {
+    transform: scaleY(-1);  
+    top: 30px;
+}
+
+/* inner content of branches */
+
+.mirror-down .content {
+  transform: scaleY(-1);
+  bottom: 0;
+}
+
+ .content {
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    width: 200px;
+}
+
+.year {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.text {
+    font-size: 0.92rem;
+    margin-top: 15px;
+}
+
+/* icons */
+
+.branch img {
+  position: absolute;
+  top: -135px;
+  left: -40px;
+  transform: scale(0.6);
+}
+
+.mirror-down img {
+  transform: scale(0.6) scaleY(-1);
+}
+
+@media (max-width: 1435px) {
+  #line {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 1256px) {
+  #line {
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 1256px) {
+  
+  /* subfooter */
+  .sub-foot {
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .img-col {
+    width: 50%;
+  }
+
+  #logo-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: -200px;
+  }
+
+  .copy-col {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1255px) {
+   #line {
+      transform: rotate(90deg);
+      transform-origin: left;
+      top: 40px;
+      left: 50%;  
+      width: 1190px;
+    }
+
+     .flip {
+        transform: scaleY(-1);
+    }
+
+    .turn {
+        transform: scaleY(1);
+    }
+ 
+    .branch {
+        bottom: 0px;
+        height: 25px;
+    }
+
+    .mirror-down {
+        top: -22px;
+        left: -70px;
+    }
+
+    .branch::after {
+        content: '';
+        border: none;
+    }
+
+    .branch::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        left: -6px;
+    }
+  
+    .text {
+        font-size: 1rem;  
+    }
+
+    .left {
+        left: 4px;
+        top: -220px;
+        transform: scaleY(-1) rotate(-90deg);
+        transform-origin: top left;
+        width: 220px;
+    }
+  
+    .flip img {
+      left: 120px;
+      top: -200px;
+      transform: rotate(-90deg) scaleX(-1) scale(0.6);
+    }
+
+    .right {
+        left: -10px;
+        top: -20px;
+        transform: rotate(-90deg)!important;
+        transform-origin: top left;
+    } 
+  
+    .turn img {
+      left: 110px;
+      top: -160px;
+      transform: rotate(-90deg) scaleX(-1) scale(0.6);
+    }
+  
+    footer {
+      position: relative;
+      top: 1350px;
+      padding-bottom: 0;
+    }
+  
+    .column {
+      margin-bottom: 30px;
+      width: 100%;
+      align-items: center;
+    } 
+  
+    #logo-img {
+      width: 80%;
+    }
+
+    .copy-col {
+      font-size: 0.9em;
+    }
+
+} 
+
+@media (max-width: 652px) {
+  #line {
+      transform: rotate(90deg) scale(0.8);
+      transform-origin: left;
+      top: 40px;
+      left: 50%;  
+      width: 1190px;
+  }
+  
+ footer {
+      position: relative;
+      top: 1180px;
+      padding-bottom: 0;
+  }
+  
+  #logo-img {
+      width: 100%;
+  }
+
+  .timeline{
+    height: 1100px;
+  }
+}
+

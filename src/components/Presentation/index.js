@@ -1,6 +1,7 @@
 //import article from '../../assets/article.png';
 import './style.scss';
 import '../../styles/commun.scss';
+import TimelineFJS from '../TimelineFJS';
 
 function Presentation(){
     return (     
@@ -19,6 +20,10 @@ function Presentation(){
     
   </div>
 </div>
+
+<TimelineFJS/>
+
+
 </div>
 
 )
