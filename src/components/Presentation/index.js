@@ -18,7 +18,7 @@ function Presentation(){
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nihil autem. Voluptates magni dolorum minus? Necessitatibus minus vero numquam, ex placeat provident officia explicabo, accusantium sit molestiae excepturi earum ab tenetur soluta a deserunt. Qui.
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nihil autem. Voluptates magni dolorum minus? Necessitatibus minus vero numquam, ex placeat provident officia explicabo, accusantium sit molestiae excepturi earum ab tenetur soluta a deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nihil autem. Voluptates magni dolorum minus? Necessitatibus minus vero numquam, ex placeat provident officia explicabo, accusantium sit molestiae excepturi earum ab tenetur soluta a deserunt. Qui.
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nihil autem. Voluptates magni dolorum minus? Necessitatibus minus vero numquam, ex placeat provident officia explicabo, accusantium sit molestiae excepturi earum ab tenetur soluta a deserunt. Qui.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nihil autem. Voluptates magni dolorum minus? Necessitatibus minus vero numquam, ex placeat provident officia explicabo, accusantium sit molestiae excepturi earum ab tenetur soluta a deserunt..</div>
+  </div>
     
   </div>
 </div>

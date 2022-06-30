@@ -4,6 +4,7 @@
 
 .timeline{
     height:700px;
+    width:100%;
 }
 
 
@@ -266,6 +267,12 @@
     }
 
 } 
+@media(max-width: 1250px) {
+  .timeline{
+    height: 1500px;
+   
+  }
+}
 
 @media (max-width: 652px) {
   #line {
@@ -285,9 +292,9 @@
   #logo-img {
       width: 100%;
   }
-
   .timeline{
-    height: 1100px;
+    height: 1200px;
   }
+ 
 }
 
