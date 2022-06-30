@@ -5,6 +5,6 @@ export const missions=
       `Créer des vocations`,  
       `Renforcer la solidarité et l'esprit d'équipe`,
       `Faire rêver les enfants`,
-      `Augmlenter l'épanouissement des grands et petits`
+      `Augmenter l'épanouissement des grands et petits`
     ]
 }
