@@ -1,7 +1,9 @@
+@import '../../styles/commun.scss';
 .containerNew{
   background:  #c73429;
  height:auto;
  width:auto;
+
 }
 .containerCardNew{
  padding: 10px;
@@ -127,4 +129,10 @@
   .cardNew:hover {
     top: 0;
   }
-  
+  @media #{$medium-down} {
+   
+    .cardNew{
+      margin-bottom:10px;  
+    }
+}
+
