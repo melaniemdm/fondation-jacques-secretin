@@ -2,9 +2,9 @@ import './style.scss';
 
 function TimelineFJS(){
    
-    return (
+    return (<div className="containerTimeline"> <div className="title toto">Mieux connaitre Jacques Secrétin</div>
         <div className="timeline">
-<div className="title">Mieux connaitre Jacques Secrétin</div>
+
 
 <div>
 <div id="line">
@@ -78,7 +78,7 @@ function TimelineFJS(){
 
 
 </div>
-        </div>
+        </div></div>
     )
 }
 
